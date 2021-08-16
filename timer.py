@@ -1,6 +1,6 @@
 import os, time, keyboard, sys
-s=50;
-m=59;
+s=0;
+m=0;
 h=0;
 while(True):
   if keyboard.is_pressed("s"):
@@ -8,7 +8,7 @@ while(True):
   else :
     os.system('clear')
     print('%d : %d  : %d' %(h, m, s))
-    time.sleep(0.1)
+    time.sleep(1)
     s += 1;
     if s==60:
       s=0;
