@@ -4,10 +4,12 @@ I simple timer in python that starts with the usual command `sudo python timer.p
 
 ### **Dependencies** ###
 1. **`keyboard`**
+
 Now in the above command `sudo` is used as I am using `keyboard` module that required system root permissions.
 So, had to install `keyboard` at root level; i.e, `sudo pip3 install keyboard`.
 
 2. **`sys`**
+
 `sys` is usually present in most of the system default. So you need not install it separately, just import and use.
 This sys module provides with a function `exit()` that I have used. This as per [Named Link](https://www.geeksforgeeks.org/python-exit-commands-quit-exit-sys-exit-and-os-_exit/ "GFG title") is a good practice, and for me it really had difference between exit() and sys.exit().
 
