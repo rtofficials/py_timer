@@ -1,8 +1,8 @@
-# py_timer
+py_timer
+------------------
 I simple timer in python that starts with the usual command `sudo python timer.py` and stops as **s** is pressed.
 
-**Dependencies**
-==================
+###**Dependencies**###
 1. **`keyboard`**
 Now in the above command `sudo` is used as I am using `keyboard` module that required system root permissions.
 So, had to install `keyboard` at root level; i.e, `sudo pip3 install keyboard`.
